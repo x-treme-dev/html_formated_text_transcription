@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "Phonetic";
+    src: url("phonetic.ttf");
+  }
+  
+body{
+    box-sizing: border-box;
+    font-family: "Phonetic";
+}
+
+.container {
+   display: flex;
+   justify-content: center;
+    margin: auto;
+    max-width: 1200px;
+     
+}
+
+.phonetic{
+    background-color: #f8f9f9;
+    width: 950px;
+    height: 550px;
+    padding-top: 50px;
+    margin-top: 50px;
+}
+
+.phonetic__indent{
+    margin:20px;
+}
+
+.phonetic__list {
+    margin-left: 10%;
+}
+
+.phonetic__title{
+    font-weight: bold;
+}
+
+.phonetic p, .phonetic__dt{
+    margin-top: 30px;
+}
+
+p:nth-child(2n+1){
+    font-weight: 100;
+    font-style: italic;
+}
+
+.phonetic__dd-grey {
+    color:  #909497;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+}
+
+.phonetic__span-black{
+    color: black;
+}
+.phonetic__span-blue{
+    color: #7d3c98;
+}
+
+
+
+
+
